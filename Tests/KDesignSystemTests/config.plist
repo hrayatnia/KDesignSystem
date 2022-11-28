@@ -5,8 +5,12 @@
 	<key>stress</key>
 	<false/>
 	<key>integration</key>
-	<true/>
+	<false/>
 	<key>unit</key>
+	<false/>
+	<key>screenshot</key>
+	<true/>
+	<key>isRecording</key>
 	<true/>
 </dict>
 </plist>
