@@ -25,8 +25,15 @@ struct CardView_Previews: PreviewProvider {
                         Spacer()
                         Text("11 c")
                     }
+                    .padding()
+                    
+                    HStack {
+                        Text("Cloudy")
+                        Spacer()
+                        Text("H: 12/L: 0")
+                    }
+                    .padding()
                 }
-                .padding()
                 .background(Color.gray)
                 .modifier(CardModifier(shadow: .clear))
             }
