@@ -11,6 +11,6 @@
 	<key>screenshot</key>
 	<true/>
 	<key>isRecording</key>
-	<true/>
+	<false/>
 </dict>
 </plist>
