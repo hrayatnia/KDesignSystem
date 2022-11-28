@@ -8,7 +8,7 @@ public struct CardModifier: ViewModifier {
     private let shadowX: Double
     private let shadowY: Double
     
-    init(radius: Double = 4.0,
+    public init(radius: Double = 4.0,
          shadow shadowColor: Color = .gray.opacity(0.15),
          shadowRadius: Double = 12,
          shadowX: Double = 4,
